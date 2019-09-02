@@ -1,0 +1,41 @@
+/* pages/kefu/kefu.wxss */
+
+.title {
+  font-size: 38rpx;
+  padding: 38rpx;
+  width: 90%;
+}
+
+.kaoq {
+  height: 254rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #eee;
+}
+
+.kaoq view {
+  width: 184rpx;
+  height: 254rpx;
+  text-align: center;
+  padding: 0 20rpx 0 45rpx;
+  float: left;
+  font-size: 30rpx;
+}
+
+.kaoq view image {
+  width: 184rpx;
+  height: 184rpx;
+}
+
+.work view {
+  height: 160rpx;
+  width: 110rpx;
+  float: left;
+  padding: 0 20rpx 0 45rpx;
+  text-align: center;
+  font-size: 24rpx
+}
+
+.work view image {
+  width: 110rpx;
+  height: 110rpx;
+}

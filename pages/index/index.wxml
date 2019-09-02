@@ -1,0 +1,16 @@
+<!--pages/home/home.wxml-->
+<!-- salesclerk  便利岗 -->
+<view class='title'>
+  个人工作管理
+</view>
+<!-- 个人工作管理的功能项 -->
+<view class='kaoq'>
+  <view>
+    <image src='../img/guanli.png'></image>
+    <text>商品管理</text>
+  </view>
+  <view>
+    <image src='../img/work.png'></image>
+    <text>订单通知</text>
+  </view>
+</view>

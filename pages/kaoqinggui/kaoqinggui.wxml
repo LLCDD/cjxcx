@@ -1,0 +1,24 @@
+<!--pages/kaoqinggui/kaoqinggui.wxml-->
+<!-- 考勤规则的页面 -->
+<view class='header'>
+  <image src='../img/laifang.png'></image>
+  <view class='first'>
+    <text>雨天</text>
+    <view class='first1'>
+      <text bindtap='kaoqin'>考勤组：考勤</text>
+      <text>2019-1-1</text>
+    </view>
+  </view>
+</view>
+<view class='h3'>考勤时间:</view>
+<view class='h1'>周一到周五上班, 上班时间：9:00 ~ 18:00</view>
+<view class='h1'>休息时间11:30 ~ 13:00</view>
+<view class='h1'>周六周日休息</view>
+<view class='h3'>可打卡时段：</view>
+<view class='h1'>迟到15分钟以内不记迟到</view>
+<view class='h1'>迟到45分钟及以上为严重迟到</view>
+<view class='h1'>迟到90分钟及以上为旷工</view>
+<view class='h3'>迟到与早退:</view>
+<view class='h1'>迟到15分钟以内不记迟到</view>
+<view class='h1'>迟到45分钟及以上为严重迟到</view>
+<view class='h1'>迟到90分钟及以上为旷工</view>

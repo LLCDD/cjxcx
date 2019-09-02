@@ -1,0 +1,56 @@
+<!--pages/security/security.wxml-->
+<!-- security  楼管岗 -->
+<view class='title'>
+  个人工作管理
+</view>
+<!-- 个人工作管理的功能项 -->
+<view class='kaoq'>
+  <view bindtap='daka'>
+    <image src='../img/ding.png'></image>
+    <text>考勤打卡</text>
+  </view>
+  <view>
+    <image src='../img/work.png'></image>
+    <text>工作通知</text>
+  </view>
+</view>
+<!-- 工作日志 -->
+<view class='title'>
+  工作日志
+</view>
+<!-- 工作日志的功能项 -->
+<view class='work'>
+  <view>
+    <image src='../img/baojie.png'></image>
+    <text>保洁考勤</text>
+  </view>
+  <view>
+    <image src='../img/xiaofang.png'></image>
+    <text>消防巡查</text>
+  </view>
+  <view>
+    <image src='../img/gongshui.png'></image>
+    <text>供水巡查</text>
+  </view>
+  <view>
+    <image src='../img/dianti.png'></image>
+    <text>电梯巡查</text>
+  </view>
+  <view>
+    <image src='../img/guangwang.png'></image>
+    <text>网管巡查</text>
+  </view>
+  <view>
+    <image src='../img/lvhua.png'></image>
+    <text>卫生绿化</text>
+  </view>
+  <view>
+    <image src='../img/weijian.png'></image>
+    <text>装修违建</text>
+  </view>
+  <view>
+    <image src='../img/other.png'></image>
+    <text>其他设备</text>
+  </view>
+
+</view>

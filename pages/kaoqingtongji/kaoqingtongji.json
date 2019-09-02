@@ -1,0 +1,12 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "考勤统计",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "van-area": "../../dist/area/index",
+    "van-collapse": "../../dist/collapse/index",
+    "van-collapse-item": "../../dist/collapse-item/index"
+  }
+}

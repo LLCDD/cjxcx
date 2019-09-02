@@ -1,0 +1,8 @@
+<!--pages/gongchengday/gongchengday.wxml-->
+<!-- 经理岗的 工程岗日志 -->
+<view class='work'>
+  <view bindtap='kefu'>
+    <image src='../img/xiuday.png'></image>
+    <text>维修日志</text>
+  </view>
+</view>

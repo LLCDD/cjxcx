@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "考勤打卡",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "dark",
+  "usingComponents": {}
+}

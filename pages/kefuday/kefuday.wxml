@@ -1,0 +1,20 @@
+<!--pages/kefuday/kefuday.wxml-->
+<!-- 经理岗的客服日志 -->
+<view class='work'>
+  <view bindtap='kefu'>
+    <image src='../img/hunfang.png'></image>
+    <text>回访日志</text>
+  </view>
+  <view>
+    <image src='../img/laifang.png'></image>
+    <text>来访日志</text>
+  </view>
+  <view>
+    <image src='../img/tingche.png'></image>
+    <text>停车日志</text>
+  </view>
+  <view>
+    <image src='../img/guanggao.png'></image>
+    <text>广告日志</text>
+  </view>
+</view>

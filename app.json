@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/logs1/logs1",
+    "pages/kaoqingtongji/kaoqingtongji",
+    "pages/daka/daka",
+    "pages/home/home",
+    "pages/engineer/engineer",
+    "pages/kefu/kefu",
+    "pages/security/security",
+    "pages/index/index",
+    "pages/kefuday/kefuday",
+    "pages/gongchengday/gongchengday",
+    "pages/louday/louday",
+    "pages/kaoqinggui/kaoqinggui",
+    "img"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

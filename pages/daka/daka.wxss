@@ -1,0 +1,128 @@
+/* pages/daka/daka.wxss */
+
+.header {
+  height: 80rpx;
+  width: 92%;
+  border-bottom: 1rpx solid #ccc;
+  padding: 18rpx 30rpx;
+  line-height: 106rpx;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header image {
+  height: 74rpx;
+  width: 74rpx;
+  border-radius: 50%;
+}
+
+.header .first {
+  width: 82%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 2;
+  height: 100%;
+  font-size: 32rpx;
+}
+
+.first1 {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30rpx;
+  font-size: 26rpx;
+  color: #edc14d;
+}
+
+/* 打卡的操作 */
+
+.ka {
+  height: 100rpx;
+  line-height: 100rpx;
+  position: relative;
+  font-size: 26rpx;
+  color: #666;
+}
+
+.ka :first-child {
+  display: inline-block;
+  height: 16rpx;
+  width: 16rpx;
+  background: #eab617;
+  line-height: 100rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 42rpx;
+  border-radius: 50%;
+}
+
+.ka :last-child {
+  margin-left: 40rpx;
+}
+
+/* 打卡按钮的修饰 */
+
+.warp {
+  width: 100%;
+  height: 250rpx;
+  text-align: center;
+}
+
+/* 不可打卡的按钮 */
+
+.warp .no {
+  height: 180rpx;
+  width: 250rpx;
+  background: #a2a2a2;
+  border-radius: 50%;
+  margin: 0 auto;
+  line-height: 40rpx;
+  padding-top: 70rpx;
+  color: #fff;
+}
+
+.warp .no :first-child {
+  font-size: 28rpx;
+}
+
+.warp .no .timer {
+  font-size: 34rpx;
+}
+
+.warp .yes {
+  height: 180rpx;
+  width: 250rpx;
+  background: #eab617;
+  border-radius: 50%;
+  margin: 0 auto;
+  line-height: 40rpx;
+  padding-top: 70rpx;
+  color: #fff;
+}
+
+.warp .yes :first-child {
+  font-size: 28rpx;
+}
+
+.warp .yes .timer {
+  font-size: 34rpx;
+}
+
+.bottom {
+  height: 100rpx;
+  width: 100%;
+  /* background: red; */
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 24rpx;
+  border-top: 1px solid #ccc
+}
+
+.bottom image {
+  height: 60rpx;
+  width: 70rpx;
+}

@@ -1,0 +1,47 @@
+<!--pages/kefu/kefu.wxml-->
+<!-- kefu  客服岗 -->
+<view class='title'>
+  个人工作管理
+</view>
+<!-- 个人工作管理的功能项 -->
+<view class='kaoq'>
+  <view bindtap='daka'>
+    <image src='../img/ding.png'></image>
+    <text>考勤打卡</text>
+  </view>
+  <view>
+    <image src='../img/work.png'></image>
+    <text>工作通知</text>
+  </view>
+</view>
+<!-- 工作日志 -->
+<view class='title'>
+  工作日志
+</view>
+<!-- 工作日志的功能项 -->
+<view class='work'>
+  <view>
+    <image src='../img/hunfang.png'></image>
+    <text>回访日志</text>
+  </view>
+  <view>
+    <image src='../img/yezhu.png'></image>
+    <text>业主报修</text>
+  </view>
+  <view>
+    <image src='../img/laifang.png'></image>
+    <text>来访日志</text>
+  </view>
+  <view>
+    <image src='../img/tingche.png'></image>
+    <text>停车费</text>
+  </view>
+  <view>
+    <image src='../img/guanggao.png'></image>
+    <text>广告费</text>
+  </view>
+  <view>
+    <image src='../img/zhufu.png'></image>
+    <text>祝福提醒</text>
+  </view>
+</view>

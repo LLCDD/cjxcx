@@ -1,0 +1,20 @@
+<!-- 登录界面 -->
+<view class='page'>
+  <image class='back' src='../img/b.png'></image>
+  <view class='lg'>
+    <image src='../img/indexlogo.jpg'></image>
+  </view>
+  <view class='top view'>
+    <image src='../img/mytext.png'></image>
+    <input bindinput='text' placeholder='请输入手机号'></input>
+  </view>
+  <view class='view'>
+    <image src='../img/pass.png'></image>
+    <input bindinput='passworld' placeholder='请输入验证码'></input>
+  </view>
+
+  <button bindtap='login'>登录</button>
+  <view class='text'>
+    温馨提示：只有在后台创建账号才能登录管家端
+  </view>
+</view>

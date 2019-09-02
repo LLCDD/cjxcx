@@ -1,0 +1,27 @@
+<!--pages/engineer/engineer.wxml-->
+<!-- engineer   工程岗 -->
+<view class='title'>
+  个人工作管理
+</view>
+<!-- 个人工作管理的功能项 -->
+<view class='kaoq'>
+  <view bindtap='daka'>
+    <image src='../img/ding.png'></image>
+    <text>考勤打卡</text>
+  </view>
+  <view>
+    <image src='../img/work.png'></image>
+    <text>工作通知</text>
+  </view>
+</view>
+<!-- 工作日志 -->
+<view class='title'>
+  工作日志
+</view>
+<!-- 工作日志的功能项 -->
+<view class='work'>
+  <view>
+    <image src='../img/xiuday.png'></image>
+    <text>维修日志</text>
+  </view>
+</view>

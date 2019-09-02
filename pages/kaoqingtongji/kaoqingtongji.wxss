@@ -1,0 +1,62 @@
+/* pages/kaoqingtongji/kaoqingtongji.wxss */
+.header {
+  height: 80rpx;
+  width: 92%;
+  border-bottom: 1rpx solid #ccc;
+  padding: 18rpx 30rpx;
+  line-height: 106rpx;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header image {
+  height: 74rpx;
+  width: 74rpx;
+  border-radius: 50%;
+}
+
+.header .first {
+  width: 82%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 2;
+  height: 100%;
+  font-size: 32rpx;
+}
+
+.first1 {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30rpx;
+  font-size: 26rpx;
+  color: #edc14d;
+}
+/* 中间部分的内容 */
+.days view {
+  height: 100rpx;
+  width: 92%;
+  padding: 0 30rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #ccc;
+  display: flex;
+  justify-content: space-between
+}
+/* 底部的样式 */
+.bottom {
+  height: 100rpx;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 24rpx;
+  border-top: 1px solid #ccc
+}
+
+.bottom image {
+  height: 60rpx;
+  width: 70rpx;
+}

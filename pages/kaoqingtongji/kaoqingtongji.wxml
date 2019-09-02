@@ -1,0 +1,60 @@
+<!--pages/kaoqingtongji/kaoqingtongji.wxml-->
+<!-- 考勤统计的界面 -->
+<view class='header'>
+  <image src='../img/laifang.png'></image>
+  <view class='first'>
+    <text>雨天</text>
+    <view class='first1'>
+      <text bindtap='kaoqin'>考勤组：考勤(查看规则)</text>
+      <picker mode="date" value="{{date}}" start="2015-09" end="{{datas}}" bindchange="bindDateChange">
+        <view class="picker">
+          {{ date }}
+        </view>
+      </picker>
+    </view>
+  </view>
+</view>
+<van-collapse value="{{ activeNames }}" bind:change="onChange">
+  <van-collapse-item title="出勤天数" name="1" :value="counts.count.days+ '次'">
+    <p v-for="(item,index) in counts.days" :key="index">
+      {{ item }}
+    </p>
+  </van-collapse-item>
+  <van-collapse-item title="休息天数" name="2" :value="counts.count.rest+ '次'">
+    <p v-for="(item,index) in counts.rest" :key="index">
+      {{ item }}
+    </p>
+  </van-collapse-item>
+  <van-collapse-item title="早退" name="3" :value="counts.count.early+ '次'">
+    <p v-for="(item,index) in counts.early" :key="index">
+      <span>{{ item[0] }}</span>
+      <span>{{ item[1] }}</span>
+    </p>
+  </van-collapse-item>
+  <van-collapse-item title="迟到" name="4" :value="counts.count.late+ '次'">
+    <p v-for="(item,index) in counts.late" :key="index">
+      <span>{{ item[0] }}</span>
+      <span>{{ item[1] }}</span>
+    </p>
+  </van-collapse-item>
+  <van-collapse-item title="矿工" :value-class="{ color1 : counts.count.absence > 1 }" name="5" :value="counts.count.absence+ '次'">
+    <p v-for="(item,index) in counts.absence" :key="index">
+      {{ item }}
+    </p>
+  </van-collapse-item>
+</van-collapse>
+
+
+
+
+<!-- 底部的选项卡 -->
+<view class='bottom'>
+  <view bindtap='daka'>
+    <image src='../img/daka_s.png'></image>
+    <view> 打卡</view>
+  </view>
+  <view bindtap='tongji'>
+    <image src='../img/tongji.png'></image>
+    <view>统计</view>
+  </view>
+</view>

@@ -1,0 +1,47 @@
+<!-- pages/daka/daka.wxml -->
+<!-- 考勤打卡的界面 -->
+<view class='header'>
+  <image src='../img/laifang.png'></image>
+  <view class='first'>
+    <text>雨天</text>
+    <view class='first1'>
+      <text bindtap='kaoqin'>考勤组：考勤(查看规则)</text>
+      <text>2019-1-1</text>
+    </view>
+  </view>
+</view>
+<!-- 打卡的操作 -->
+<view class='ka'>
+  <text></text>
+  <text>上班时间：8：30</text>
+</view>
+<view class='ka'>
+  <text></text>
+  <text>下班时间：17：30</text>
+</view>
+<!-- 打卡的按钮 -->
+<view class='warp'>
+  <!-- 不可打卡的按钮 -->
+  <view wx:if="{{ days == 0 }}" bindtap='no' class='no'>
+    <text>现在不可打卡</text>
+    <view></view>
+    <text class='timer'>08:45</text>
+  </view>
+  <!-- 正常的打卡事件 -->
+  <view wx:if="{{ days == 1 }}" bindtap='no' class='yes'>
+    <text>上班打卡</text>
+    <view></view>
+    <text class='timer'>08:45</text>
+  </view>
+</view>
+<!-- 底部的选项卡 -->
+<view class='bottom'>
+  <view>
+    <image src='../img/daka_s.png'></image>
+    <view> 打卡</view>
+  </view>
+  <view bindtap='tongji'>
+    <image src='../img/tongji.png'></image>
+    <view>统计</view>
+  </view>
+</view>

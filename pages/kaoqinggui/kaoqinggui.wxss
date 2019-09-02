@@ -1,0 +1,48 @@
+/* pages/kaoqinggui/kaoqinggui.wxss */
+
+.header {
+  height: 80rpx;
+  width: 92%;
+  border-bottom: 1rpx solid #ccc;
+  padding: 18rpx 30rpx;
+  line-height: 106rpx;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header image {
+  height: 74rpx;
+  width: 74rpx;
+  border-radius: 50%;
+}
+
+.header .first {
+  width: 82%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 2;
+  height: 100%;
+  font-size: 32rpx;
+}
+
+.first1 {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30rpx;
+  font-size: 26rpx;
+  color: #edc14d;
+}
+
+.h3 {
+  font-weight: 600;
+}
+
+.h3, .h1 {
+  padding: 10rpx;
+  padding-left: 30rpx;
+}
+.h1 {
+  font-size: 26rpx
+}

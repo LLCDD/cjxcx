@@ -1,0 +1,14 @@
+/* pages/kefuday/kefuday.wxss */
+.work view {
+  height: 160rpx;
+  width: 110rpx;
+  float: left;
+  padding: 20rpx 20rpx 0 45rpx;
+  text-align: center;
+  font-size: 24rpx;
+}
+
+.work view image {
+  width: 110rpx;
+  height: 110rpx;
+}

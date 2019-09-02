@@ -1,0 +1,25 @@
+/**index.wxss**/
+.title {
+  font-size: 38rpx;
+  padding: 38rpx;
+  width: 90%;
+}
+
+.kaoq {
+  height: 254rpx;
+  width: 100%;
+}
+
+.kaoq view {
+  width: 184rpx;
+  height: 254rpx;
+  text-align: center;
+  padding: 0 20rpx 0 45rpx;
+  float: left;
+  font-size: 30rpx;
+}
+
+.kaoq view image {
+  width: 184rpx;
+  height: 184rpx;
+}
